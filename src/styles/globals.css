@@ -12,6 +12,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --color-muted-foreground: #64748B;
+  --color-card-dark: #1E293B;
+  --color-border-aside: #64748B;
+  --color-text-primary: #F1F5F9;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
