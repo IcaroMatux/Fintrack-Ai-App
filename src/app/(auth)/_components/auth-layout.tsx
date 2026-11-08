@@ -17,7 +17,7 @@ export const AuthLayout = ({
     title,
     footerHref,
     footerLinkText,
-    footerText,
+    footerText
 }: AuthLayoutProps) => {
     return (
         <section className="h-screen flex items-center justify-center p-10">
@@ -41,10 +41,7 @@ export const AuthLayout = ({
                 <div className="mt-10 text-center">
                     <p className="text-sm text-[#9F9FA9]">
                         {footerText}
-                        <Link
-                            href={footerHref}
-                            className="ml-1 text-[#9333EA] font-semibold hover:underline"
-                        >
+                        <Link href={footerHref} className="ml-1 text-[#9333EA] font-semibold hover:underline">
                             {footerLinkText}
                         </Link>
                     </p>

@@ -12,13 +12,12 @@ export default function SignInPage() {
             footerLinkText="Criar conta"
             footerHref="/sign-up"
         >
-            <form className="space-y-6" action="">
+            <form className="space-y-6">
                 <label className="block text-sm text-zinc-300 mb-2">
                     E-mail
                 </label>
                 <input
                     type="email"
-                    name="email"
                     placeholder="seu@email.com"
                     className={inputClass}
                 />
@@ -28,14 +27,14 @@ export default function SignInPage() {
                 </label>
                 <input
                     type="password"
-                    name="password"
                     placeholder="••••••••"
                     className={inputClass}
                 />
 
                 <button
                     type="submit"
-                    className="w-full bg-[#9333EA] flex items-center justify-center text-white py-4 rounded-2xl font-semibold hover:bg-[#7E22CE] gap-2 transition-colors cursor-pointer"
+                    className="w-full bg-[#9333EA] flex items-center 
+                justify-center gap-2 font-semibold rounded-2xl py-4 cursor-pointer"
                 >
                     <span>Entrar</span>
                     <Image src={ArrowIcon} alt="Ícone de seta do botão" />
