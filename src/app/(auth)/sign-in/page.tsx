@@ -9,29 +9,28 @@ export default function SignInPage() {
             title="Bem-vindo de volta"
             description="Entre com suas credenciais para continuar"
             footerText="Não tem uma conta?"
-            footerLinkText="Criar Conta"
+            footerLinkText="Criar conta"
             footerHref="/sign-up"
         >
             <form className="space-y-6" action="">
-                <div className="space-y-2">
-                    <label className="block text-sm text-zinc-300 mb-2">
-                        Email
-                    </label>
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="seu@email.com"
-                        className={inputClass}
-                    />
-                </div>
+                <label className="block text-sm text-zinc-300 mb-2">
+                    E-mail
+                </label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="seu@email.com"
+                    className={inputClass}
+                />
+
                 <label className="block text-sm text-zinc-300 mb-2">
                     Senha
                 </label>
                 <input
                     type="password"
                     name="password"
-                    placeholder="............"
-                    className={inputClass}  
+                    placeholder="••••••••"
+                    className={inputClass}
                 />
 
                 <button
